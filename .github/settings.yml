@@ -1,0 +1,32 @@
+labels:
+  - name: bug
+    color: d73a49
+    description: Something isn't working as documented, or is being fixed
+
+  - name: documentation
+    color: 0366d6
+    description: Improvements or additions to documentation
+
+  - name: feature
+    description: New feature or request
+    color: 0366d6
+
+  - name: first-timers-only
+    description: Reserved for first-time contributors
+    color: 22863a
+
+  - name: good first issue
+    description: Good for contributors new to octoherd
+    color: 22863a
+
+  - name: pull request welcome
+    description: Ready to work on
+    color: 22863a
+
+  - name: maintenance
+    description: Tests, Refactorings, Automation, etc
+    color: d03592
+
+  - name: support
+    description: question about usage or the project overall
+    color: ffd33d
