@@ -1,5 +1,9 @@
 {
-  "extends": ["config:base", ":disableDependencyDashboard"],
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard",
+    "helpers:pinGitHubActionDigests"
+  ],
   "rangeStrategy": "replace",
   "semanticCommitType": "build",
   "packageRules": [
