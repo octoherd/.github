@@ -1,19 +1,11 @@
 {
-  "extends": [
-    "config:base",
-    ":disableDependencyDashboard"
-  ],
-  "rangeStrategy": "replace",
-  "semanticCommitType": "build",
+  "extends": ["github>octokit/.github"],
   "packageRules": [
     {
-      "depTypeList": ["dependencies"],
-      "semanticCommitType": "fix"
-    },
-    {
-      "depTypeList": ["action"],
-      "semanticCommitType": "ci",
-      "semanticCommitScope": "action"
+      "matchDepTypes": [
+        "action"
+      ],
+      "pinDigests": false
     }
   ]
 }
