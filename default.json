@@ -1,5 +1,10 @@
 {
   "extends": ["github>octokit/.github"],
+  "lockFileMaintenance": {
+    "automerge": true,
+    "automergeType": "branch",
+    "autoMergeStrategy": "squash"
+  },
   "packageRules": [
     {
       "matchDepTypes": [
