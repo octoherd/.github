@@ -1,6 +1,7 @@
 {
   "extends": ["github>octokit/.github"],
   "lockFileMaintenance": {
+    "enabled": true,
     "automerge": true,
     "automergeType": "branch"
   },
