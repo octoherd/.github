@@ -5,11 +5,13 @@ on:
     branches:
       - main
     paths:
+      - .github/workflows/vaidate-renovate-config.yml
       - default.json
   push:
     branches:
       - main
     paths:
+      - .github/workflows/vaidate-renovate-config.yml
       - default.json
 jobs:
   validate:
