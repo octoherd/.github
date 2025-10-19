@@ -7,6 +7,7 @@ on:
     paths:
       - .github/workflows/vaidate-renovate-config.yml
       - default.json
+      - renovate.json
   push:
     branches:
       - main
