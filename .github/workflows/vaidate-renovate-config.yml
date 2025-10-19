@@ -4,9 +4,13 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - default.json
   push:
     branches:
       - main
+    paths:
+      - default.json
 jobs:
   validate:
     runs-on: ubuntu-latest
